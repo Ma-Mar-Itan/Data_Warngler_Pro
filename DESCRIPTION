@@ -1,0 +1,32 @@
+Package: mypackage
+Type: Package
+Title: Data Wrangler Pro Shiny Application
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Data", family = "Warngler", role = c("aut", "cre"), email = "dev@example.com")
+)
+Description: Packaged Shiny application migrated from script-based layout
+    into an installable R package with modular architecture.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.1.0)
+Imports:
+    bslib,
+    DT,
+    dplyr,
+    fs,
+    ggplot2,
+    readr,
+    rlang,
+    shiny,
+    tools
+Suggests:
+    arrow,
+    devtools,
+    roxygen2,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
